@@ -102,8 +102,10 @@ p {
     margin: 0 auto;
 }
 
-.container-portfolio {
+
+.four .container {
     padding: 32px 16px;
+    
 }
 
 .contacts-list {
