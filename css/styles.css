@@ -110,9 +110,6 @@ p {
     
 }
 
-.footer-container {
-    padding: 32px 16px
-}
 
 .container-portfolio {
     padding: 32px 16px;
@@ -290,6 +287,10 @@ address a:focus {
     column-gap: 24px;
     row-gap: 48px;
     }
+
+.portfolio>li:first-child {
+    width: calc((100% - 48px) / 3);
+}
 
  .portfolio-border {
     width: calc((100% - 48px) / 3)
