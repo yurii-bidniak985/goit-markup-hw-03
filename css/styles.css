@@ -100,10 +100,11 @@ p {
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
+    padding: 32px 16px
 }
 
 
-.four .container {
+.container-portfolio {
     padding: 32px 16px;
     
 }
