@@ -45,7 +45,7 @@ img {
     text-decoration: none;
     display: inline-block;
     margin-right: 76px;
-    /* для отступа справа в header */
+    
 }
 
 .logo-text {
@@ -58,13 +58,6 @@ img {
   
 }
 
-.logo-text {
-    color: #2e2f42;
-}
-
-.logo-color {
-    color: #F4F4FD;
-}
 
 .nav-list {
     display: flex;
@@ -81,6 +74,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -155,9 +149,9 @@ address {
 .address-list {
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding: 0;
 }
-
-
 
 address a {
     color: #434455;
@@ -374,7 +368,19 @@ address a:focus {
 }
 
 
-
+.logo-footer {
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 76px;
+}
 
 
 .foot-p {
