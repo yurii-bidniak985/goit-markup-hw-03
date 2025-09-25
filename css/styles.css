@@ -43,10 +43,19 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    display: inline-block;
     margin-right: 76px;
-    
+    /* для отступа справа в header */
+}
+
+.logo-text {
+    color: #2e2f42;
+
+}
+
+.logo-color {
+    color: #f4f4fd;
+  
 }
 
 .logo-text {
@@ -88,6 +97,10 @@ h6,
 p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.header {
+    padding: 24px 0;
 }
 
 .container {
@@ -143,6 +156,8 @@ address {
     display: flex;
     gap: 40px;
 }
+
+
 
 address a {
     color: #434455;
@@ -267,12 +282,15 @@ address a:focus {
 
 
 
- .portfolio {
-    width: calc((100% - 48px) / 3);
+ .portfolio { 
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    }
+
+ .portfolio-border {
+    width: calc((100% - 48px) / 3);
  }
 
  .portfolio-border img {
@@ -349,17 +367,7 @@ address a:focus {
     color: #434455;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 
 .logo-color {
     color: #f4f4fd;
@@ -367,11 +375,7 @@ address a:focus {
 
 
 
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-}
+
 
 .foot-p {
     line-height: 1.5;
