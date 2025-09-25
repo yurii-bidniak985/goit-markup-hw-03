@@ -45,6 +45,8 @@ img {
     text-decoration: none;
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-right: 76px;
+    
 }
 
 .logo-text {
@@ -96,8 +98,14 @@ p {
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
+    padding: 32px 0
 }
 
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
 
 .second-container {
     display: flex;
@@ -307,7 +315,7 @@ address a:focus {
 }
 
 .four {
-    padding: 120px 0;
+    padding: 32px 16px
 }
 
 .four-h2 {
@@ -342,6 +350,8 @@ address a:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-color {
@@ -369,4 +379,8 @@ address a:focus {
 
 footer {
     background-color: #2E2F42;
+}
+
+.foot-style {
+    padding: 100px 0;
 }
