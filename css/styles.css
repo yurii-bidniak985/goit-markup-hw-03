@@ -148,7 +148,9 @@ address {
 
 .address-list {
     display: flex;
+    flex-direction: row;
     gap: 40px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
