@@ -288,12 +288,10 @@ address a:focus {
     row-gap: 48px;
     }
 
-.portfolio>li:first-child {
-    width: calc((100% - 48px) / 3);
-}
+
 
  .portfolio-border {
-    width: calc((100% - 48px) / 3)
+     width: calc((100% - 48px) / 3)
  }
 
  .portfolio-border img {
@@ -414,4 +412,41 @@ footer {
 
 .foot-style {
     padding: 100px 0;
+}
+
+
+.container-portfolio {
+    padding: 32px 16px;
+}
+
+.portfolio {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio>li,
+.portfolio-border {
+    box-sizing: border-box;
+    width: calc((100% - 48px) / 3);
+    background: #fff;
+    overflow: hidden;
+}
+
+.portfolio>li:first-child {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-border img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-format {
+    padding: 32px 16px;
+    border-top: none;
 }
