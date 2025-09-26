@@ -19,6 +19,7 @@ header {
 
 img {
     display: block;
+    width: 100%;
 }
 
 .visually-hidden {
@@ -275,11 +276,7 @@ address a:focus {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-border img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 .portfolio-format {
     border: 1px solid #e7e9fc;
