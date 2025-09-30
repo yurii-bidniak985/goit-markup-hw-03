@@ -60,7 +60,6 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .nav-link {
@@ -94,19 +93,12 @@ p {
 }
 
 .container {
-    box-sizing: border-box;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
-}
-
-
-.container-portfolio {
-    /* padding: 32px 16px; */
-    
 }
 
 .contacts-list {
@@ -183,7 +175,7 @@ address a:focus {
     text-align: center;
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .one-type {
@@ -230,7 +222,7 @@ address a:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 8px;
+    
     margin-bottom: 8px;
 }
 
@@ -260,7 +252,6 @@ address a:focus {
 }
 
 .three-hero {
-    display: flex;
     padding: 120px 0;
     text-align: center;
 }
@@ -275,7 +266,6 @@ address a:focus {
 .portfolio-border {
     width: calc((100% - 48px) / 3);
 }
-
 
 
 .portfolio-format {
@@ -359,7 +349,6 @@ address a:focus {
     color: #4d5ae5;
     text-decoration: none;
     display: inline-block;
-    margin-right: 76px;
 }
 
 .foot-p {
@@ -371,7 +360,6 @@ address a:focus {
     font-weight: 400;
     font-size: 16px;
     display: block;
-    padding-top: 16px;
     max-width: 300px;
 }
 
